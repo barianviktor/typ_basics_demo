@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "asdasdasdas",
+      "email": "dasdasd@dsdasd",
+      "password": "asdasdasd",
+      "id": 1
+    },
+    {
+      "username": "Ferenc",
+      "email": "Andor@dasdasd",
+      "password": "asdasdasd",
+      "id": 2
+    },
+    {
+      "username": "Andorka",
+      "email": "Andor@dasdasd",
+      "password": "asdasdasd",
+      "id": 3
+    },
+    {
+      "username": "manócska",
+      "email": "Andor@dasdasd",
+      "password": "asdasdasd",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+https://vdi-backup.training360.com/
+
+tsc --init
+
+rootDir// itt keresi a forráskódot "./src"
+outDir// ide rakja a buildet "./dist"
+
+let url:string = "dasdasd";
+let randomNum:number = 30;
+let bool:boolean = false;
+let randomObject : any ={
+
+}
+let numberArray:number[] =[1,2,3,4]
+let numberArrayV2: Array<number> = [1,2,3,4,5]
+
+function addNumbers(num1:number, num2:number):number{
+    return num1+num2
+}
+
+addNumbers(numberArray[1], numberArray[2])
+
+Abstract class -> extends -> class -> Final Class
+
+private,protected,PUBLIC
+

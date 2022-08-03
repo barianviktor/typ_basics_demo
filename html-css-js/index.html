@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML basics practice</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav class="navigation-links">
+                <a href="/">Belépés</a>
+                <a href="/">Ingatlan feladás</a>
+                <a href="/">Kontakt</a>
+                <a href="/">Ügyfélszolgálat</a>
+            </nav>
+            <div class="social-icons">
+                <div class="facebook">
+                    <img src="./img/like.svg" alt="facebook icon"/>
+                </div>
+                <div class="insta">
+                    <img src="./img/instagram.svg" alt="instagram icon"/>
+                </div>
+                <div class="mail">
+                    <img src="./img/mail.svg" alt="mail icon"/>
+                </div>
+            </div>
+        </div>
+       
+    </header>
+    <main>
+        <section class="features-section">
+            <article class="search-container">
+                <div class="features-icon">
+                    <img src="./img/magnifying-glass.svg" alt="search">
+                </div>
+                <section class="feature-text">
+                    <h3>Keresés az ingatlanok között</h3>
+                    <p>Naponta frissülő ajánlatok</p>
+                    <p>Részletes keresés</p>
+
+                </section>
+            </article>
+            <article class="registration-container">
+                <div class="features-icon">
+                    <img src="./img/statistics.svg" alt="">
+                </div>
+                <section class="feature-text">
+                    <h3>Regisztrálás az oldalra</h3>
+                    <p>Ingatlan feladási lehetőség</p>
+                    <p>Üzenet küldési lehetőség</p>
+                </section>
+            </article>
+            <article class="ad-container">
+                <div class="features-icon">
+                    <img src="./img/house.svg" alt="">
+                </div>
+                <section class="feature-text">
+                    <h3>Hírdetésfeladás</h3>
+                    <p>Gyors jóváhagyás</p>
+                    <p>2 napig kiemelt</p>
+                </section>
+            </article>
+        </section>
+        <!-- <section class="registration_section">
+            <h2>Regisztráció</h2>
+            <form action="POST">
+                <div class="registration_container">
+                    <label for="felhasznalonev">Felhasználónév:</label>
+                    <input type="text" name="felhasznalonev"/>
+                    <div class="felhasznalonev_error error_box">
+                        Hibás felhasználónév!
+                    </div>
+                </div>
+                <div class="registration_container">
+                    <label for="email">Email cím:</label>
+                    <input type="text" name="email"/>
+                    <div class="email_error error_box">
+                        Hibás email cím!
+                    </div>
+                </div>
+                <div class="registration_container">
+                    <label for="password">Jelszó:</label>
+                    <input type="password" name="password"/>
+                    <div class="password_error error_box">
+                        Hibás jelszó!
+                    </div>
+                </div>
+                <div class="registration_container">
+                    <label for="passwordAgain">Jelszó újra:</label>
+                    <input type="password" name="passwordAgain"/>
+                    <div class="PasswordAgain_error error_box">
+                        Jelszavak nem egyeznek
+                    </div>
+                </div>
+                <div class="registration_container">
+                    <button class="küldésGomb"  value="Küldés">
+                        Küldés
+                    </button>
+                </div>
+            </form>
+        </section> -->
+        <section class="form-container">
+            <h4>Regisztráció</h4>
+            <form action="javascript:void(0)" name="form">
+                <label for="username">Felhasználónév</label>
+                <input type="text" id="username" name="username">
+                <small class="error-username">Hibás Felhasználónév!</small>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <small class="error-email">Hibás Email cím!</small>
+
+                <label for="password">Jelszó:</label>
+                <input type="password" id="password" name="password">
+                <small class="error-password">Hibás Jelszó!</small>
+
+                <label for="repassword">Jelszó újra:</label>
+                <input type="password" id="repassword" name="repassword">
+                <small class="error-re-password">Jelszavak nem egyeznek!</small>
+
+                <button class="submit-btn" type="submit" disabled>
+                    Küldés
+                </button>
+            </form>
+        </section>
+        <section class="user-list-container">
+            <button id="get-users">Felhasználók lekérdezése </button>
+            <div>
+                <ul class="user-list">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+   <footer>
+    <h5>2022 Minden jog fenntartva</h5>
+   </footer>
+    <script src="./main.js">
+        //                    <input class="küldésGomb"  type="submit" value="Küldés">
+
+    </script>
+</body>
+</html>

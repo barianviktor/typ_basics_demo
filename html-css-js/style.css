@@ -1,0 +1,252 @@
+/*
+* {
+    padding: 0 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    
+}
+
+*/
+
+html,*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu{
+    min-height: 70px;
+    background-color: aliceblue;
+    position: relative;
+    padding: 1px;
+}
+
+.navigation-links {
+    display: block;
+    width: 70%;
+    margin: 1% auto;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 1%;
+}
+.navigation-links a:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
+.social-icons {
+    position: absolute;
+    right: 2%;
+    top: 10%;   
+    width: 30%;
+    height: 40px;
+    
+    text-align: center;
+}
+.social-icons div {
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    display: inline-block;
+    margin: 0 1%;
+    border-radius: 50%;
+    
+}
+.social-icons img {
+    width: 85%;
+}
+.facebook{
+    border: 1px solid cornflowerblue;
+}
+.insta{
+    border: 1px solid purple;
+}
+.mail {
+    border: 1px solid red;
+}
+
+/* SECTION */
+
+.features-section > * {
+    min-height: 150px;
+    width: 30%;
+    margin: 1% auto;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.search-container, .ad-container, .registration-container {
+    display: inline-block;
+}
+.features-section .feature-text {
+    text-align: center;
+    padding: 0.3rem;
+}
+.features-section .features-icon {
+    background-color: whitesmoke;
+    width: 3rem;
+    height: 3rem;
+    margin: 2% auto;
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-align: center;
+}
+.features-icon img {
+    width: 75%;
+}
+.search-container{
+    background-color: teal;
+}
+.registration-container{
+    background-color: mediumaquamarine;
+}
+.ad-container{
+    background-color: seagreen;
+}
+.registration_section{
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.registration_section h2{
+    color: teal;
+    
+}
+.registration_section form {
+    width: 100%;
+    padding: 20px 0;
+    background-color: lightblue;
+}
+.registration_container{
+    width: 100%;
+    text-align: center;
+    
+}
+.registration_container > *{
+    display: block;
+    margin: 1rem  auto;
+    
+}
+.registration_container label{
+    color: teal;
+    font-weight: 600;
+}
+.registration_container input{
+    width: 30%;
+    padding: 5px;
+}
+.error_box{
+    color: red;
+    font-weight: 600;
+}
+.küldésGomb{
+    margin: 50px auto;
+    font-size: 16px;
+    background-color: rgb(4, 83, 83);
+    color: whitesmoke;
+    border: 2px solid rgb(3, 128, 128);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+}
+.küldésGomb:hover{
+    border: 2px solid rgb(0, 241, 241);
+}
+.küldésGomb:active{
+    background-color: rgb(3, 139, 139);
+    border: 1px solid rgb(14, 173, 173);
+
+}
+
+/* form */
+
+.form-container {
+    width: 60%;
+    margin: 5% auto;
+}
+
+h4{
+    text-align: center;
+    font-size: 1.7rem;
+    color: teal;
+}
+form{
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: teal;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 4px 4px 8px 0  rgba(37, 37, 37, 0.733);
+}
+input,label,small{
+    display: block;
+    margin: 2% auto;
+    font-size: 1.3rem;
+
+}
+small{
+    color: red;
+    display: none;
+}
+input{
+    width: 40%;
+    margin: 0 auto;
+    height: 2rem;
+    border-radius: 8px;
+}
+button{
+    width: 20%;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: teal;
+    color: whitesmoke;
+    margin: 5% auto;
+    font-size: 1.3rem;
+
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    margin-top: 2rem;
+    padding: 1px;
+}
+h5{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 1rem;
+}
+.user-list{
+    list-style: none;
+    width: 100%;
+}
+.user-list li{
+    margin: 2% auto;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+    
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    border: 1px solid rgb(226, 226, 226);
+}
+.user-list li:hover{
+    box-shadow: 5px 5px 15px 0 rgba(46, 46, 46, 0.479);
+    border: 1px solid rgb(247, 247, 247);
+
+}
