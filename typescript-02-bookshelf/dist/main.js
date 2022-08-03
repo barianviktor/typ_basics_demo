@@ -12,4 +12,4 @@ for (let i = 1; i < 41; i++) {
 console.log(bs1.getBooks(2006));
 console.log(bs1.getLightestAuthor());
 bs1.printBooks();
-//bs1.getAuthorOfMostWrittenPages()
+console.log(bs1.getAuthorOfMostWrittenPages());
